@@ -1,0 +1,242 @@
+[
+    {
+        "nombre": "Martillo de acero 16 oz",
+        "categoria": "Herramientas",
+        "precio": 8990,
+        "stock": 15
+    },
+    {
+        "nombre": "Destornillador Phillips",
+        "categoria": "Herramientas",
+        "precio": 3990,
+        "stock": 25
+    },
+    {
+        "nombre": "Destornillador plano",
+        "categoria": "Herramientas",
+        "precio": 3990,
+        "stock": 20
+    },
+    {
+        "nombre": "Alicate universal 8 pulgadas",
+        "categoria": "Herramientas",
+        "precio": 6990,
+        "stock": 18
+    },
+    {
+        "nombre": "Llave inglesa 10 pulgadas",
+        "categoria": "Herramientas",
+        "precio": 7990,
+        "stock": 12
+    },
+    {
+        "nombre": "Cinta métrica 5 metros",
+        "categoria": "Herramientas",
+        "precio": 4990,
+        "stock": 30
+    },
+    {
+        "nombre": "Nivel de burbuja 40 cm",
+        "categoria": "Herramientas",
+        "precio": 6490,
+        "stock": 10
+    },
+    {
+        "nombre": "Sierra manual",
+        "categoria": "Herramientas",
+        "precio": 8990,
+        "stock": 8
+    },
+    {
+        "nombre": "Broca para concreto 8 mm",
+        "categoria": "Herramientas",
+        "precio": 2490,
+        "stock": 40
+    },
+    {
+        "nombre": "Broca para metal 6 mm",
+        "categoria": "Herramientas",
+        "precio": 2290,
+        "stock": 35
+    },
+    {
+        "nombre": "Tornillo madera 4x40 mm",
+        "categoria": "Tornillería",
+        "precio": 1990,
+        "stock": 100
+    },
+    {
+        "nombre": "Tornillo madera 5x50 mm",
+        "categoria": "Tornillería",
+        "precio": 2490,
+        "stock": 90
+    },
+    {
+        "nombre": "Tornillo autoperforante",
+        "categoria": "Tornillería",
+        "precio": 2990,
+        "stock": 80
+    },
+    {
+        "nombre": "Tuerca hexagonal 8 mm",
+        "categoria": "Tornillería",
+        "precio": 1490,
+        "stock": 120
+    },
+    {
+        "nombre": "Arandela plana 8 mm",
+        "categoria": "Tornillería",
+        "precio": 990,
+        "stock": 150
+    },
+    {
+        "nombre": "Perno hexagonal 10 mm",
+        "categoria": "Tornillería",
+        "precio": 1990,
+        "stock": 75
+    },
+    {
+        "nombre": "Cable eléctrico 2.5 mm",
+        "categoria": "Electricidad",
+        "precio": 15990,
+        "stock": 20
+    },
+    {
+        "nombre": "Enchufe doble blanco",
+        "categoria": "Electricidad",
+        "precio": 3490,
+        "stock": 30
+    },
+    {
+        "nombre": "Interruptor simple",
+        "categoria": "Electricidad",
+        "precio": 2990,
+        "stock": 25
+    },
+    {
+        "nombre": "Ampolleta LED 9W",
+        "categoria": "Electricidad",
+        "precio": 2490,
+        "stock": 50
+    },
+    {
+        "nombre": "Regleta eléctrica 6 posiciones",
+        "categoria": "Electricidad",
+        "precio": 8990,
+        "stock": 15
+    },
+    {
+        "nombre": "Cinta aisladora negra",
+        "categoria": "Electricidad",
+        "precio": 1990,
+        "stock": 45
+    },
+    {
+        "nombre": "Pintura blanca interior 1 galón",
+        "categoria": "Pintura",
+        "precio": 18990,
+        "stock": 12
+    },
+    {
+        "nombre": "Pintura látex blanca 4 litros",
+        "categoria": "Pintura",
+        "precio": 22990,
+        "stock": 10
+    },
+    {
+        "nombre": "Brocha 2 pulgadas",
+        "categoria": "Pintura",
+        "precio": 2990,
+        "stock": 25
+    },
+    {
+        "nombre": "Rodillo para pintura",
+        "categoria": "Pintura",
+        "precio": 4990,
+        "stock": 20
+    },
+    {
+        "nombre": "Bandeja para pintura",
+        "categoria": "Pintura",
+        "precio": 2990,
+        "stock": 18
+    },
+    {
+        "nombre": "Silicona transparente",
+        "categoria": "Adhesivos",
+        "precio": 3990,
+        "stock": 30
+    },
+    {
+        "nombre": "Pegamento universal",
+        "categoria": "Adhesivos",
+        "precio": 2990,
+        "stock": 35
+    },
+    {
+        "nombre": "Cinta doble contacto",
+        "categoria": "Adhesivos",
+        "precio": 3490,
+        "stock": 20
+    },
+    {
+        "nombre": "Guantes de trabajo",
+        "categoria": "Seguridad",
+        "precio": 2990,
+        "stock": 40
+    },
+    {
+        "nombre": "Lentes de seguridad",
+        "categoria": "Seguridad",
+        "precio": 3990,
+        "stock": 25
+    },
+    {
+        "nombre": "Mascarilla protectora",
+        "categoria": "Seguridad",
+        "precio": 2490,
+        "stock": 30
+    },
+    {
+        "nombre": "Candado de seguridad 40 mm",
+        "categoria": "Seguridad",
+        "precio": 5990,
+        "stock": 15
+    },
+    {
+        "nombre": "Manguera de jardín 10 metros",
+        "categoria": "Jardinería",
+        "precio": 12990,
+        "stock": 10
+    },
+    {
+        "nombre": "Pala de jardín",
+        "categoria": "Jardinería",
+        "precio": 6990,
+        "stock": 12
+    },
+    {
+        "nombre": "Tijera de podar",
+        "categoria": "Jardinería",
+        "precio": 5990,
+        "stock": 14
+    },
+    {
+        "nombre": "Regadera plástica 5 litros",
+        "categoria": "Jardinería",
+        "precio": 4990,
+        "stock": 16
+    },
+    {
+        "nombre": "Llave de paso 1/2 pulgada",
+        "categoria": "Fontanería",
+        "precio": 4490,
+        "stock": 22
+    },
+    {
+        "nombre": "Cinta de teflón",
+        "categoria": "Fontanería",
+        "precio": 1290,
+        "stock": 50
+    }
+]
