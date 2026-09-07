@@ -1,0 +1,61 @@
+{% extends "catalogo/base.html" %}
+
+{% block title %}
+Catálogo de productos
+{% endblock %}
+
+{% block content %}
+
+<div class="productos">
+
+    {% for producto in productos %}
+
+        <div class="producto">
+
+            <img 
+                src="{{ producto.imagen }}" 
+                alt="{{ producto.nombre }}"
+            >
+
+            <h3>{{ producto.nombre }}</h3>
+
+            <p class="categoria">
+                {{ producto.categoria }}
+            </p>
+
+            <p class="precio">
+                ${{ producto.precio }}
+            </p>
+
+            {% if producto.stock > 0 %}
+
+                <p class="stock disponible">
+                    Disponible: {{ producto.stock }} unidades
+                </p>
+
+            {% else %}
+
+                <p class="stock agotado">
+                    SIN STOCK
+                </p>
+
+            {% endif %}
+
+            <a
+                class="boton"
+                href="{% url 'detalle_producto' forloop.counter0 %}"
+            >
+                Ver detalle
+            </a>
+
+        </div>
+
+    {% empty %}
+
+        <p>No hay productos disponibles.</p>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}

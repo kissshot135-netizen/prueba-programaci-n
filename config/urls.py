@@ -16,8 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from django.views.generic import RedirectView  # Opcional para redirigir
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", include("catalogo.urls")),
+    path('admin/', admin.site.urls),
+    path('catalogo/', include('catalogo.urls')),
+    # Redirigir la raíz directamente al catálogo:
+    path('', RedirectView.as_view(url='/catalogo/', permanent=False)),
 ]
