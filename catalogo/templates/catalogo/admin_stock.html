@@ -1,0 +1,37 @@
+{% extends "catalogo/base.html" %}
+
+{% block title %}Administrar stock{% endblock %}
+
+{% block content %}
+<div class="panel">
+    <h2>Administración de stock</h2>
+    <p>Usuario administrador: <strong>{{ user.username }}</strong></p>
+
+    <form method="post" class="formulario admin-form">
+        {% csrf_token %}
+        <label>
+            Producto
+            <select name="producto_id">
+                {% for producto in productos %}
+                    <option value="{{ forloop.counter0 }}">{{ producto.nombre }} (stock actual: {{ producto.stock }})</option>
+                {% endfor %}
+            </select>
+        </label>
+
+        <label>
+            Acción
+            <select name="accion">
+                <option value="sumar">Aumentar stock</option>
+                <option value="restar">Reducir stock</option>
+            </select>
+        </label>
+
+        <label>
+            Cantidad
+            <input type="number" name="cantidad" min="1" value="1">
+        </label>
+
+        <button type="submit">Guardar cambios</button>
+    </form>
+</div>
+{% endblock %}

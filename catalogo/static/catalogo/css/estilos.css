@@ -13,14 +13,37 @@ header {
     text-align: center;
 }
 
+header h1 {
+    margin: 0 0 0.75rem 0;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.topnav a,
+.topnav span {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /* Contenedor en cuadrícula */
 .productos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 /* Tarjeta de producto */
@@ -65,6 +88,15 @@ header {
     margin: 0 15px 15px 15px;
 }
 
+.stock.disponible {
+    color: #2e7d32;
+}
+
+.stock.agotado {
+    color: #c62828;
+    font-weight: bold;
+}
+
 .boton {
     display: block;
     text-align: center;
@@ -79,4 +111,134 @@ header {
 
 .boton:hover {
     background-color: #2980b9;
+}
+
+.boton.secundaria {
+    background-color: #7f8c8d;
+}
+
+.boton.secundaria:hover {
+    background-color: #5f6f7f;
+}
+
+.producto-detalle {
+    display: flex;
+    gap: 2rem;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.producto-detalle img {
+    width: 45%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.contenido-producto {
+    flex: 1;
+}
+
+.contenido-producto h2 {
+    margin-top: 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.formulario label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario select,
+.formulario button {
+    padding: 0.7rem 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #ccd2d8;
+    font-size: 1rem;
+}
+
+.formulario button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario button:hover {
+    background-color: #1f8a4d;
+}
+
+.panel {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.panel h2 {
+    margin-top: 0;
+}
+
+.mensajes {
+    max-width: 1000px;
+    margin: 20px auto 0 auto;
+}
+
+.mensaje {
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+}
+
+.mensaje.success {
+    background-color: #dff5e8;
+    color: #1e7e34;
+}
+
+.mensaje.error {
+    background-color: #ffe1e1;
+    color: #b71c1c;
+}
+
+.mensaje.info {
+    background-color: #e8f0fe;
+    color: #0d47a1;
+}
+
+.aviso {
+    margin: 1.2rem 0;
+}
+
+.compra {
+    max-width: 300px;
+}
+
+.admin-form {
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .producto-detalle {
+        flex-direction: column;
+    }
+
+    .producto-detalle img {
+        width: 100%;
+    }
 }
